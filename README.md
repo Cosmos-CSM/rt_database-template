@@ -3,6 +3,8 @@
 This repository provides database template projects, this are pre-configured databases for ORM support on different
 frameworks, is intended to be connected and work immediate OOB, but they provide a customization layer to extend base behavior.
 
+For deeper version details, please consult [CHANGELOG](<path>)
+
 ## **Database Structure**
 
 Here you will be guide along the current database structure, for more structure details per version, please check *CHANGELOG.md*.
@@ -33,3 +35,11 @@ Here you will be able to see how use this database template in your business pro
 - GITHUB.PAT: It's a generated personal access token, go to *Settings* > *Developer Settings* > *Personal access tokens*, create a **Classic** type access token and provide at minimum **Read:Packages** permission.
 
 > dotnet add package **<PackageId>** --source github
+
+## *Testing*
+
+Database template projects provides a package exclusive for testing utilities related with the database. To get these utilities you can install it through:
+
+> dotnet add package **<PackageId>** --source github
+
+For more specific version details about testing package, please consult [CHANGELOG](<path>)
